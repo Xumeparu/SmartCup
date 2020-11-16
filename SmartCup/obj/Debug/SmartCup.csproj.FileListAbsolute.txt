@@ -1,0 +1,10 @@
+C:\Users\nyalu\GitHub\SmartCup\SmartCup\bin\Debug\SmartCup.exe.config
+C:\Users\nyalu\GitHub\SmartCup\SmartCup\bin\Debug\SmartCup.exe
+C:\Users\nyalu\GitHub\SmartCup\SmartCup\bin\Debug\SmartCup.pdb
+C:\Users\nyalu\GitHub\SmartCup\SmartCup\obj\Debug\SmartCup.csprojAssemblyReference.cache
+C:\Users\nyalu\GitHub\SmartCup\SmartCup\obj\Debug\SmartCup.Properties.Resources.resources
+C:\Users\nyalu\GitHub\SmartCup\SmartCup\obj\Debug\SmartCup.csproj.GenerateResource.cache
+C:\Users\nyalu\GitHub\SmartCup\SmartCup\obj\Debug\SmartCup.csproj.CoreCompileInputs.cache
+C:\Users\nyalu\GitHub\SmartCup\SmartCup\obj\Debug\SmartCup.exe
+C:\Users\nyalu\GitHub\SmartCup\SmartCup\obj\Debug\SmartCup.pdb
+C:\Users\nyalu\GitHub\SmartCup\SmartCup\obj\Debug\SmartCup.Cup.resources
