@@ -1,0 +1,7 @@
+.idea
+*.resx
+*.settings
+*.cs
+*.config
+*.csproj
+*.sln
