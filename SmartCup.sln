@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartCup", "SmartCup\SmartCup.csproj", "{BF43133F-E70C-453C-B26F-389B5061BC50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF43133F-E70C-453C-B26F-389B5061BC50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF43133F-E70C-453C-B26F-389B5061BC50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF43133F-E70C-453C-B26F-389B5061BC50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF43133F-E70C-453C-B26F-389B5061BC50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B54FF504-DEDC-4098-B34F-8F77326B84B0}
+	EndGlobalSection
+EndGlobal
