@@ -87,7 +87,6 @@
             this.getCompote.Text = "Compote";
             this.getCompote.UseVisualStyleBackColor = true;
             this.getCompote.Click += new System.EventHandler(this.getCompote_Click);
-            this.getCompote.MouseClick += new System.Windows.Forms.MouseEventHandler(this.getCompote_MouseClick);
             // 
             // getTea
             // 
@@ -147,12 +146,13 @@
             this.dataGridViewTextBoxColumn2,
             this.dataGridViewTextBoxColumn3});
             this.drinksDataGridView.DataSource = this.drinksBindingSource;
-            this.drinksDataGridView.Location = new System.Drawing.Point(407, 44);
+            this.drinksDataGridView.Location = new System.Drawing.Point(290, 44);
             this.drinksDataGridView.Margin = new System.Windows.Forms.Padding(6);
             this.drinksDataGridView.Name = "drinksDataGridView";
             this.drinksDataGridView.ReadOnly = true;
-            this.drinksDataGridView.Size = new System.Drawing.Size(436, 218);
+            this.drinksDataGridView.Size = new System.Drawing.Size(553, 328);
             this.drinksDataGridView.TabIndex = 1;
+            this.drinksDataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.drinksDataGridView_CellContentClick);
             // 
             // dataGridViewTextBoxColumn1
             // 
@@ -198,7 +198,7 @@
             // temperatureTitle
             // 
             this.temperatureTitle.AutoSize = true;
-            this.temperatureTitle.Location = new System.Drawing.Point(403, 312);
+            this.temperatureTitle.Location = new System.Drawing.Point(403, 378);
             this.temperatureTitle.Name = "temperatureTitle";
             this.temperatureTitle.Size = new System.Drawing.Size(154, 24);
             this.temperatureTitle.TabIndex = 8;
@@ -207,7 +207,7 @@
             // temperature
             // 
             this.temperature.AutoSize = true;
-            this.temperature.Location = new System.Drawing.Point(563, 312);
+            this.temperature.Location = new System.Drawing.Point(563, 378);
             this.temperature.Name = "temperature";
             this.temperature.Size = new System.Drawing.Size(46, 24);
             this.temperature.TabIndex = 9;

@@ -144,9 +144,34 @@ namespace SmartCup
             }
         }
 
-        private void getCompote_MouseClick(object sender, MouseEventArgs e)
+        // Updating the database by clicking on a specific cell //
+        private void drinksDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            buttonWasClicked = true;
+            string sql;
+
+            if (drinksDataGridView.CurrentCell.Value.ToString() == "Компот")
+            {
+                sql = "UPDATE Drinks SET Value = Value - 250 WHERE Name = 'Компот' AND Value > 0";
+                SQLRequest(sql);
+            }
+
+            if (drinksDataGridView.CurrentCell.Value.ToString() == "Чай")
+            {
+                sql = "UPDATE Drinks SET Value = Value - 250 WHERE Name = 'Чай' AND Value > 0";
+                SQLRequest(sql);
+            }
+
+            if (drinksDataGridView.CurrentCell.Value.ToString() == "Кофе")
+            {
+                sql = "UPDATE Drinks SET Value = Value - 250 WHERE Name = 'Кофе' AND Value > 0";
+                SQLRequest(sql);
+            }
+
+            if (drinksDataGridView.CurrentCell.Value.ToString() == "Вода")
+            {
+                sql = "UPDATE Drinks SET Value = Value - 250 WHERE Name = 'Вода' AND Value > 0";
+                SQLRequest(sql);
+            }
         }
 
         // Exit //
