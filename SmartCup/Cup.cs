@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using Timer = System.Timers.Timer;
+using System.Timers;
 
 namespace SmartCup
 {
@@ -16,7 +18,6 @@ namespace SmartCup
         public static string strConn = @"Data Source=LAPTOP-NBAIPN8N\SQLEXPRESS;Initial Catalog=SmartCup;Integrated Security=True";
 
         DateTime t1, t2; // time counter test
-
         private bool buttonWasClicked = false;
 
         public Cup()
@@ -127,23 +128,25 @@ namespace SmartCup
             time.Text = ts.Hours.ToString() + ":" + ts.Minutes.ToString() + ":" + ts.Seconds.ToString();
 
             int hour = 3600;
-            int temp = 50;
-            int second = 0;
+
+            buttonWasClicked = true;
 
             if (buttonWasClicked)
             {
+                int temp = 50;
+                temperature.Text = temp.ToString();
+
                 for (int i = 0; i <= hour; i++) 
                 {
+                    temp -= 1;
                     temperature.Text = temp.ToString();
-
-                    if (ts.Seconds.Equals(second))
-                    {
-                        temp -= 1;
-                    }
-
-                    second += 10;
                 }
             }
+        }
+
+        private void getCompote_MouseClick(object sender, MouseEventArgs e)
+        {
+            buttonWasClicked = true;
         }
 
         // Exit //

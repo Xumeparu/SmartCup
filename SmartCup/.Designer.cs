@@ -87,6 +87,7 @@
             this.getCompote.Text = "Compote";
             this.getCompote.UseVisualStyleBackColor = true;
             this.getCompote.Click += new System.EventHandler(this.getCompote_Click);
+            this.getCompote.MouseClick += new System.Windows.Forms.MouseEventHandler(this.getCompote_MouseClick);
             // 
             // getTea
             // 
@@ -208,8 +209,9 @@
             this.temperature.AutoSize = true;
             this.temperature.Location = new System.Drawing.Point(563, 312);
             this.temperature.Name = "temperature";
-            this.temperature.Size = new System.Drawing.Size(0, 24);
+            this.temperature.Size = new System.Drawing.Size(46, 24);
             this.temperature.TabIndex = 9;
+            this.temperature.Text = "---";
             // 
             // exit
             // 
